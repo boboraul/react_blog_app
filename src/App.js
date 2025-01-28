@@ -22,7 +22,7 @@ console.log('test');
 
   return (
     <div className="App">
-        <Header title="REACT JS Blog" />  
+        <Header title="BOBO - REACT JS Blog" />  
         <Nav /> 
         <Routes>
           <Route path="/" element={<Home isLoading={isLoading} fetchError={fetchError}/>} />    
