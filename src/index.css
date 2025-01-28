@@ -55,9 +55,7 @@ body {
 
 .Header, .Footer {
   width: 100%;
-  
-/*   background-color: #4da0f5; */
-  background-color: red;
+  background-color: #4da0f5;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
