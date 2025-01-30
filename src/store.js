@@ -52,7 +52,7 @@ export default createStore({
         const { posts } = helpers.getState();
         try {
 
-            await api.delete(`/${id}`);
+            await api.delete(`/posts/${id}`);
             actions.setPosts(posts.filter(post => post.id !== id));
              
            } catch (err) {
